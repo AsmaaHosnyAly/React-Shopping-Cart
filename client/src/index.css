@@ -18,19 +18,9 @@
   grid-template-rows: 50px 1fr 50px;
 
 }
-header,footer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(11, 156, 101);
-  font-size: 20px;
-}
+
 
 main{
   grid-area: main;
   background-color: rgb(243, 245, 244);
-}
-footer{
-  grid-area: footer;
-  
 }
