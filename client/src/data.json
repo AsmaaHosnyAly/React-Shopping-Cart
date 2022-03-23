@@ -1,0 +1,38 @@
+[
+    {
+        "id":"idl",
+        "title":"Image_1",
+        "ImgUrl":"/images/img_1.jpg",
+        "des":"Product 1",
+        "price":30,
+        "size":["XL,L"]
+    },
+    {
+        "id":"id2",
+        "title":"Image_1",
+        "ImgUrl":"/images/img_2.png",
+        "des":"Product 1",
+        "price":40,
+        "size":["XL","L"]
+    },
+    {
+        "id":"id3",
+        "title":"Image_1",
+        "ImgUrl":"/images/img_3.png",
+        "des":"Product 1",
+        "price":50,
+        "size":["S","L"]
+    },
+    {
+        "id":"id3",
+        "title":"Image_1",
+        "ImgUrl":"/images/img_3.png",
+        "des":"Product 1",
+        "price":50,
+        "size":["S","L"]
+    }
+    
+
+
+]
+   
