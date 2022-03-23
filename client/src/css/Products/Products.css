@@ -1,0 +1,32 @@
+.products {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+.products .products-items {
+  width: 22%;
+  background-color: antiquewhite;
+}
+.products .products-items img {
+  width: 100%;
+  /* min-height: 200px; */
+  padding: 2px;
+  border: 2px solid #ad9f1e;
+}
+.products .products-items .products-des {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+}
+.products button {
+  width: 100%;
+  display: block;
+  border: 0;
+  background-color: #0b9c65;
+  padding: 10px;
+  font-weight: bold;
+}
+.products button:hover {
+  opacity: 0.8;
+}
