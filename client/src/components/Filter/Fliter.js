@@ -1,28 +1,35 @@
 import React from "react";
 import "../../css/Filter/Filter.css";
 
-export default function Fliter() {
+export default function Fliter(props) {
   return (
     <div className="filter-wrapper">
       <h2 className="filter-title"> filter</h2>
       <div className="num-of-product">num of product 7</div>
       <div className="filter-by-size">
         <span>Filter</span>
-        <select className="filter-select">
+        <select
+          value={props.size}
+          className="filter-select"
+          onChange={props.handelFilterBySize}
+        >
           <option value="ALL">ALL</option>
           <option value="S">S</option>
-          <option value="S">M</option>
+          <option value="M">M</option>
           <option value="L">L</option>
           <option value="XL">XL</option>
-          <option value="XXL">L</option>
-          <option value="XXXL">XL</option>
+          <option value="XXXL">XXXL</option>
         </select>
       </div>
       <div className="filter-by-size">
         <span>Order</span>
-        <select className="filter-select">
-          <option value="lastest">Lastest</option>
-          <option value="lower">Lowest</option>
+        <select
+          value={props.sort}
+          className="filter-select"
+          onChange={props.handelFilterByOrder}
+        >
+          <option value="latest">Latest</option>
+          <option value="lowest">Lowest</option>
           <option value="highest">Highest</option>
         </select>
       </div>
