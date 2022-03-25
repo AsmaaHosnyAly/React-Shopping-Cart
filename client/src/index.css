@@ -1,43 +1,39 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
-  padding:0;
+  padding: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#root{
+#root {
   height: 100vh;
 }
 
-.layout{
-  display:grid;
-  grid-template-areas: 
-  "header"
-  "main" 
-  "footer";
+.layout {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
   height: 100%;
   grid-template-rows: 60px 1fr 50px;
-
 }
 
-
-main{
+main {
   grid-area: main;
   background-color: rgb(243, 245, 244);
 }
 
-.wrapper{
+.wrapper {
   display: flex;
   justify-content: space-between;
   padding: 30px;
-  
 }
-.wrapper .products{
+.wrapper .products {
   width: 70%;
   /* background-color: blue; */
 }
-.wrapper .filter{
+.wrapper .filter {
   width: 28%;
-  background-color: brown;
   color: #000;
   /* position: relative; */
 }
