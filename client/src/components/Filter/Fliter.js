@@ -5,7 +5,9 @@ export default function Fliter(props) {
   return (
     <div className="filter-wrapper">
       <h2 className="filter-title"> filter</h2>
-      <div className="num-of-product">num of product 7</div>
+      <div className="num-of-product">
+        num of product {props.productsNumber}
+      </div>
       <div className="filter-by-size">
         <span>Filter</span>
         <select
