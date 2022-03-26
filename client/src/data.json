@@ -1,7 +1,7 @@
 [
     {
         "id":"idl",
-        "title":"Image_1",
+        "title":"Product_1",
         "ImgUrl":"/images/img_1.jpg",
         "des":"Product 1 hhaaaaaaaaaaa yyyyy gggggggggggg",
         "price":30,
@@ -9,7 +9,7 @@
     },
     {
         "id":"id2",
-        "title":"Image_1",
+        "title":"Product_2",
         "ImgUrl":"/images/img_2.png",
         "des":"Product 1",
         "price":40,
@@ -17,7 +17,7 @@
     },
     {
         "id":"id3",
-        "title":"Image_1",
+        "title":"Product_3",
         "ImgUrl":"/images/img_3.png",
         "des":"Product 1",
         "price":50,
